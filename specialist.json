@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "id": "research.hugo",
+  "display_name": "Hugo",
+  "version": "0.1.0",
+  "remit": ["source discovery", "evidence synthesis", "provenance", "uncertainty reporting"],
+  "anti_remit": ["unsourced factual invention", "code mutation", "deployment"],
+  "call_types": ["consult", "delegate", "review"],
+  "accepted_inputs": ["task_description", "repository_reference", "artifact_reference"],
+  "output_contract": "team-up.result/v1",
+  "capabilities": {
+    "skills": ["research"],
+    "tools": ["filesystem.read", "network.http"],
+    "mcps": [],
+    "frameworks": []
+  },
+  "permissions": {
+    "filesystem": "project_readonly",
+    "writes": false,
+    "network": true,
+    "commands": []
+  },
+  "budget": { "timeout_seconds": 1800, "max_tokens": 80000 },
+  "model_profile": { "tier": "medium", "reasoning": "low" },
+  "eval_suite": "evals/evals.json"
+}
