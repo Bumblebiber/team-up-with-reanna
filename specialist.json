@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "id": "research.hugo",
-  "display_name": "Hugo",
+  "id": "research.reanna",
+  "display_name": "Reanna",
   "version": "0.1.0",
   "remit": ["source discovery", "evidence synthesis", "provenance", "uncertainty reporting"],
   "anti_remit": ["unsourced factual invention", "code mutation", "deployment"],
